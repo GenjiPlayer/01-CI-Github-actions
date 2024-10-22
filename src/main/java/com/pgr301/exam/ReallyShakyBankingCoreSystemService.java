@@ -73,7 +73,7 @@ class ReallyShakyBankingCoreSystemService implements BankingCoreSystmeService {
         randomizeExceptionOrPanic(probability, 0.9d);
     }
 
-    private void randomizeExceptionOrPanic(double probability, double panicProbability) {
+    privat void randomizeExceptionOrPanic(double probability, double panicProbability) {
         if (Math.random() <= probability) {
             throw new BackEndException();
         }
