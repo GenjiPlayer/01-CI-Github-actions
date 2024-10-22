@@ -70,7 +70,7 @@ class ReallyShakyBankingCoreSystemService implements BankingCoreSystmeService {
     }
 
     private void randomizeExceptionOrPanic(double probability) {
-        randomizeExceptionOrPanic(probability, 0.2d);
+        randomizeExceptionOrPanic(probability, 0.9d);
     }
 
     private void randomizeExceptionOrPanic(double probability, double panicProbability) {
